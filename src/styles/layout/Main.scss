@@ -1,0 +1,17 @@
+@import '../core/reset';
+@import '../core/Variables.scss';
+
+
+.main {
+    background-color: $white;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+
+    @media (min-width:768px) {
+        grid-template-columns: 1fr 1fr;
+
+    }}

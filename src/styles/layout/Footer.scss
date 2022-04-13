@@ -1,0 +1,16 @@
+@import "../core/Reset.scss";
+@import '../core/Variables.scss';
+
+
+
+.footer{
+    width: 100%;
+    //position: absolute;
+    bottom: 0;
+    padding: 22px;
+    background-color: $footerBackground;
+    &__small{
+        color:$mainTextColor;
+        font-family: $barlow;
+    }
+}

@@ -1,16 +1,11 @@
 @import '../core/reset.scss';
+@import '../core/Variables.scss';
 
-.header{
-    background-color: #6532ff;
- font-family: 'Poppins', sans-serif;
- color: #fff;
-    /*content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(#6532ff,150px,transparent);
-    opacity: .05;*/
+
+.header {
+    width: 100%;
+    background-color: $companyColor;
 }
+
+
+
