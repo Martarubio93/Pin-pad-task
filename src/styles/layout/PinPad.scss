@@ -6,7 +6,7 @@
     width: max-content;
     height: 350px;
 
-    &__form {
+    &__structure {
         padding: 12px;
         display: flex;
         flex-direction: column;
@@ -20,6 +20,7 @@
         height: 50px;
         padding: 12px;
         margin: 6px;
+        border: solid 1px $companyColor;
         text-align: center;
     }
 
@@ -40,6 +41,7 @@
             border: solid 1px $companyColor;
             color: $mainTextColor;
             font-size: 22px;
+            cursor: pointer;
         }
     }
 }

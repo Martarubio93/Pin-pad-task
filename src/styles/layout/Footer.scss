@@ -5,10 +5,12 @@
 
 .footer{
     width: 100%;
-    //position: absolute;
     bottom: 0;
     padding: 22px;
     background-color: $footerBackground;
+    @media (min-width:768px){
+        position: absolute;
+    }
     &__small{
         color:$mainTextColor;
         font-family: $barlow;

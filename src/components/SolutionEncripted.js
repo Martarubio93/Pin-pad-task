@@ -7,31 +7,35 @@ const SolutionEncripted = () => {
   const lettersKtoZ = ["R", "S", "T", "U", 'V', "W", "X", "Y", "Z"];
 
   return (
-    <div>
-        <h3 className="hint">
+    <div className="solutionContainer">
+        <h3 className="solutionContainer__hint">
         The pin is encrypted in the DATA word
         </h3>
       <table className="table">
+        <thead>
         <tr>
           {numbers.map((num) => {
-            return <th className="table__th">{num}</th>;
+            return <th key={num}className="table__th">{num}</th>;
           })}
         </tr>
+        </thead>
+        <tbody>
         <tr>
           {lettersAtoI.map((letter) => {
-            return <td className="table__td">{letter}</td>;
+            return <td key={letter}className="table__td">{letter}</td>;
           })}
         </tr>
         <tr>
           {lettersJtoK.map((letter) => {
-            return <td className="table__td">{letter}</td>;
+            return <td key={letter} className="table__td">{letter}</td>;
           })}
         </tr>
         <tr>
           {lettersKtoZ.map((letter) => {
-            return <td className="table__td">{letter}</td>;
+            return <td key={letter}className="table__td">{letter}</td>;
           })}
         </tr>
+        </tbody>
       </table>
     </div>
   );
