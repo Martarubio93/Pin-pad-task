@@ -9,7 +9,7 @@ const SolutionEncripted = () => {
   return (
     <div className="solutionContainer">
         <h3 className="solutionContainer__hint">
-        The pin is encrypted in the DATA word
+        The correct pin is encrypted in the DATA word, Good Luck!
         </h3>
       <table className="table">
         <thead>

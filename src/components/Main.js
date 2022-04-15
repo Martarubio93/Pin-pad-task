@@ -5,10 +5,11 @@ import SolutionEncripted from '../components/SolutionEncripted';
 import '../styles/layout/Main.scss';
 
 
-const Main = (props) => {
+const Main = () => {
+    const pinPadNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, "*", 0, "#"];
     return <main className="main">
         <SolutionEncripted/>
-        <PinPad pinPadNumbers={props.pinPadNumbers} />
+        <PinPad pinPadNumbers={pinPadNumbers} />
         
     </main>
 }

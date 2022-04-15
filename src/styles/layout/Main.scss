@@ -4,17 +4,18 @@
 
 .main {
     background-color: $white;
-    padding-top: 44px;
-    padding-bottom: 44px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: grid;
     grid-template-columns: 1fr;
-   align-items: center;
-   justify-items: center;
+    align-items: center;
+    justify-items: center;
+
 
 
     @media (min-width:768px) {
         grid-template-columns: 1fr 1fr;
-      
-       
+
+
     }
 }
