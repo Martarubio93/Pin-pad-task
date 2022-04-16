@@ -8,5 +8,14 @@ $boxShadow: rgba(166, 166, 166, 0.68);
 $black: #0000;
 
 //Fonts
-$poppins: 'Poppins', sans-serif;
-$barlow : 'Barlow', sans-serif;
+$poppins: 'Poppins',
+sans-serif;
+$barlow : 'Barlow',
+sans-serif;
+
+//mixins
+@mixin hints {
+    font-family: $poppins;
+    color: $mainTextColor;
+    padding: 13px;
+}

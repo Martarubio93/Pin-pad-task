@@ -2,7 +2,7 @@
 
 ## About The Project
 
-This project features a responsive website, in it you will find a Pin Pad, to unlock the device you have to find the correct PIN, which is encrypted in the panel and contains 4 digits, if the PIN is correct an OK! will be displayed on the screen, otherwise an ERROR will be displayed. 
+This project features a responsive website, in it you will find a Pin pad, to unlock the device you have to find the correct PIN, which is encrypted in the DATA word and contains 4 digits, if the PIN is correct an OK! will be displayed on the screen, otherwise an ERROR will be displayed. After 3 wrong attempts the Pin pad locks for 30 seconds.
 
 ## Directory Structure
 

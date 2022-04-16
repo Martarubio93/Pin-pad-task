@@ -1,3 +1,4 @@
+import '../styles/core/Reset.scss';
 import '../styles/layout/Footer.scss';
 
 const Footer = () => {

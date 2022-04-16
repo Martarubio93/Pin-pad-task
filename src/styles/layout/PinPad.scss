@@ -25,6 +25,12 @@
         font-weight: bolder;
         color: $mainTextColor;
         font-family: $barlow;
+        &--locked{
+            font-family: $barlow;
+            color: $white;
+            background-color: $companyColor;
+            padding: 3px;
+        }
     }
 
     &__buttonsContainer {
@@ -47,4 +53,8 @@
             cursor: pointer;
         }
     }
+}
+
+.collapsed {
+    display: none;
 }

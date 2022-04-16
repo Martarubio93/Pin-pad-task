@@ -8,8 +8,8 @@ const SolutionEncripted = () => {
 
   return (
     <div className="solutionContainer">
-        <h3 className="solutionContainer__hint">
-        The correct pin is encrypted in the DATA word, Good Luck!
+        <h3 className="solutionContainer__title">
+        The correct pin is encrypted in the DATA word
         </h3>
       <table className="table">
         <thead>
@@ -37,6 +37,8 @@ const SolutionEncripted = () => {
         </tr>
         </tbody>
       </table>
+      <p className="solutionContainer__hint">Hint: The first digit is 4 and the last one is 1 </p>
+      <p className="solutionContainer__hint">Be careful! After three wrong attemps the Pinpad will lock for 30 secs</p>
     </div>
   );
 };
