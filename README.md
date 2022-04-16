@@ -15,7 +15,7 @@ src
  |      |  └── SolutionEncripted.js
  |      |   └─ PinPad.js
  |      |      └── ButtonNumber.js
- |      |      └── Button.js  
+ |      |      └── PinBox.js  
  |      |       
  |      └─ Footer.js
  |
