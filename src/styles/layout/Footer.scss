@@ -5,13 +5,9 @@
 
 .footer {
     width: 100%;
+    height: 100px;
     padding: 22px;
     background-color: $footerBackground;
-
-    @media (min-width: 768px) {
-        bottom: 0;
-        position: absolute;
-    }
 
 
     &__small {
