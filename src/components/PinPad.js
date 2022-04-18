@@ -30,11 +30,11 @@ const PinPad = (props) => {
   const resetPinBox = (error) => {
     const errorIncrease = error ? 0 : attemp + 1;
     setTimeout(() => setNumbers([]), 1000);
-    setErrorCount(errorIncrease, 1000);
+    attempsCounter(errorIncrease, 1000);
   };
 
  
-  const setErrorCount = (errorIncrease, ms) => {
+  const attempsCounter = (errorIncrease, ms) => {
     timeOut = setTimeout(() => setAttemp(errorIncrease), ms);
     return timeOut;
   };
@@ -48,7 +48,7 @@ const PinPad = (props) => {
     <div className="pinPadContainer">
       <div className="pinPadContainer__structure">
         <PinBox checkPin={checkPin} resetPinBox={resetPinBox} handlePin={handlePin}  numbers={numbers} attemp={attemp}
-        setErrorCount={setErrorCount}/>
+        attempsCounter={attempsCounter}/>
         <div className="pinPadContainer__buttonsContainer">
           {props.pinPadNumbers.map((num) => {
             return (

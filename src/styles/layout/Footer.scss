@@ -7,6 +7,10 @@
     width: 100%;
     padding: 22px;
     background-color: $footerBackground;
+    @media (min-width:1024px){
+        position: absolute;
+        bottom: 0;
+    }
 
     &__small {
         color: $mainTextColor;

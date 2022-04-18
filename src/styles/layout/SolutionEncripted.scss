@@ -5,6 +5,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 0;
+    }
 
     &__title {
         @include hints;
@@ -13,13 +18,20 @@
     &__hint {
         @include hints;
         font-weight: bolder;
+
+        &--img {
+            width: 30px;
+            height: 30px;
+            padding-left: 6px;
+            padding-top: 10px;
+        }
+
     }
 
 }
 
 
 .table {
-    padding-bottom: 30px;
     width: 253px;
     font-family: $poppins;
 

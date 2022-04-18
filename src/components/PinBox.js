@@ -14,7 +14,7 @@ const PinBox = (props) => {
           {props.resetPinBox(props.checkPin())}
         </>
       )}
-      {props.attemp === 3 && props.setErrorCount(0, 30000) && (
+      {props.attemp === 3 && props.attempsCounter(0, 30000) && (
         <p className="pinPadContainer__pinBox--locked">LOCKED</p>
       )}
     </div>
