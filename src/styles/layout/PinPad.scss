@@ -25,7 +25,8 @@
         font-weight: bolder;
         color: $mainTextColor;
         font-family: $barlow;
-        &--locked{
+
+        &--locked {
             font-family: $barlow;
             color: $white;
             background-color: $companyColor;
