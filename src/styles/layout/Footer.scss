@@ -7,7 +7,8 @@
     width: 100%;
     padding: 22px;
     background-color: $footerBackground;
-    @media (min-width: 768px){
+
+    @media (min-width: 768px) {
         bottom: 0;
         position: absolute;
     }

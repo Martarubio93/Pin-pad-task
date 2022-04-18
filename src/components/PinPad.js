@@ -2,7 +2,7 @@
 import { useState } from "react";
 //components
 import ButtonNumber from "./ButtonNumber";
-import PinBox  from "./PinBox";
+import PinBox from "./PinBox";
 //styles
 import "../styles/layout/PinPad.scss";
 
@@ -11,8 +11,6 @@ const PinPad = (props) => {
   const correctPin = ["4", "1", "3", "1"];
   const [attemp, setAttemp] = useState(0);
   let timeOut;
-
-
 
   const handleShowNumber = (value) => {
     setNumbers([...numbers, value]);
@@ -26,14 +24,12 @@ const PinPad = (props) => {
     return hiddenNumbers.concat(lastNum);
   };
 
-
   const resetPinBox = (error) => {
     const errorIncrease = error ? 0 : attemp + 1;
     setTimeout(() => setNumbers([]), 1000);
     attempsCounter(errorIncrease, 1000);
   };
 
- 
   const attempsCounter = (errorIncrease, ms) => {
     timeOut = setTimeout(() => setAttemp(errorIncrease), ms);
     return timeOut;
@@ -43,12 +39,17 @@ const PinPad = (props) => {
     return JSON.stringify(correctPin) === JSON.stringify(numbers);
   };
 
-
   return (
     <div className="pinPadContainer">
       <div className="pinPadContainer__structure">
-        <PinBox checkPin={checkPin} resetPinBox={resetPinBox} handlePin={handlePin}  numbers={numbers} attemp={attemp}
-        attempsCounter={attempsCounter}/>
+        <PinBox
+          checkPin={checkPin}
+          resetPinBox={resetPinBox}
+          handlePin={handlePin}
+          numbers={numbers}
+          attemp={attemp}
+          attempsCounter={attempsCounter}
+        />
         <div className="pinPadContainer__buttonsContainer">
           {props.pinPadNumbers.map((num) => {
             return (
