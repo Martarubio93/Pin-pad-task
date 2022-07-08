@@ -1,4 +1,3 @@
-# Urban Data Collective 
 
 ## About The Project
 
