@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "./static/css/main.45b74f2e.css",
+    "main.js": "./static/js/main.963fd974.js",
+    "static/media/face-smile-solid.svg": "./static/media/face-smile-solid.7d9d923c5b9e713fe761a6d0836ee216.svg",
+    "index.html": "./index.html",
+    "main.45b74f2e.css.map": "./static/css/main.45b74f2e.css.map",
+    "main.963fd974.js.map": "./static/js/main.963fd974.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45b74f2e.css",
+    "static/js/main.963fd974.js"
+  ]
+}
