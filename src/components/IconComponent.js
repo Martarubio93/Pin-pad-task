@@ -4,10 +4,9 @@ import "../styles/layout/IconComponent.scss";
 const IconComponent = () => {
   return (
     <div className="iconContainer">
-      <a href="https://www.urbandatacollective.com/">
+      <a href="/">
         <img className="iconContainer__icon" src={icon} alt="icon" />
       </a>
-      <h1 className="iconContainer__title">Urban Data Collective Challenge</h1>
     </div>
   );
 };
